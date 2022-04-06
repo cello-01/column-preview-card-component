@@ -157,6 +157,12 @@ section .conteiner .luxury button:hover {
         grid-template: repeat(1, auto)/repeat(3, 1fr);
         grid-template-areas: "sadan suv luxury";
   }
+  section .conteiner .sedans button,
+  section .conteiner .suvs button,
+  section .conteiner .luxury button {
+    max-width: 150px;
+    max-height: 50px;
+  }
   section .conteiner .sedans {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
