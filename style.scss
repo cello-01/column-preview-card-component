@@ -115,6 +115,13 @@ section{
         max-height: 400px;
         grid-template: repeat(1,auto) / repeat(3,1fr);
         grid-template-areas: "sadan suv luxury";
+        .sedans,
+        .suvs,
+        .luxury{
+            button{
+                max-width: 150px;
+                max-height: 50px;
+            }
         .sedans{
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
